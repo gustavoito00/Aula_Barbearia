@@ -1,2 +1,2 @@
-# Aula_Barbearia_Alura
+# Aula_Barbearia
 Primeiro projeto finalizado com aprendizado Front End
