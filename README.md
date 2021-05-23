@@ -3,6 +3,8 @@
 
 # Autor
 Gustavo Ito
+https://gustavoito00.github.io/Aula_Barbearia/index.html
+
 
 # Sobre o projeto
 
