@@ -3,12 +3,12 @@
 
 # Autor
 Gustavo Ito
-https://gustavoito00.github.io/Aula_Barbearia/index.html
+https://gustavoito00.github.io/Aula_Barbearia/#logo
 
 
 # Sobre o projeto
 
-Primeiro projeto finalizado com aprendizado Html & Css.
+Primeiro projeto finalizado com aprendizado Html, Css & Java Script.
 Aula_Barbearia é uma pequena página desenvolvido com orientação do Prof. Pedro Marins, Instrutor da escola (Alura - Projeto. Oracle Next Education)
 
 Aplicamos conhecimento para criação de  texto, imagem, blocos de conteúdo, listas de informações e Link. 
@@ -17,9 +17,7 @@ Aprendemos a mudar cor, posicionar elementos, mudar espaçamento, propriedades c
 
 
 ## Layout web
-![Web 1](https://)
-
-![Web 2](https://)
+![Web 1](https://github.com/gustavoito00/ativos/blob/f91a9de326fa9979c95fee401d8674190ecd9a13/Projeto_barbearia/destiop.jpeg)
 
 
 # Tecnologias utilizadas
