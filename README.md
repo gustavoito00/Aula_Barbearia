@@ -24,7 +24,7 @@ Aprendemos a mudar cor, posicionar elementos, mudar espaçamento, propriedades c
 
 # Tecnologias utilizadas
 ## Front end
-- HTML / CSS / 
+- HTML / CSS / Java Script
 
 ## Back end
 

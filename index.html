@@ -3,63 +3,111 @@
 <html lang="pt-br">
 	
 	<head>
-	
+		
 		<meta charset="UTF-8">
 		<meta name="viewport" content="widht-device-widht">
-		<title>Sobre a Barbearia Alura</title>
+		<title>Barbearia Alura</title>
 
-			<link rel="stylesheet" href="reset.css">
-			<link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" href="Css/reset.css">
+			<link rel="stylesheet" href="Css/style.css">
+			<link rel="stylesheet" href="Css/menu-bar.css">
+			<link rel="stylesheet" href="Css/mediaquery.css">
+			<link rel="stylesheet" href="Css/mediaquery2.css">
+			<link rel="stylesheet" href="Css/mediaquery3.css">
+			<link rel="stylesheet" href="Css/mediaquery4.css">
+			<link rel="stylesheet" href="Css/mediaquery5.css">
+
 			<link rel="preconnect" href="https://fonts.gstatic.com">
 			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
- 
+
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	</head>
 		<header>
-			<div class="caixa">
-				<h1><img src="produto imagem/logo.png" alt="logo da alura"></h1>
-					<nav>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="produtos.html">Produto</a></li>
-							<li><a href="contato.html">Contato</a></li>
+			<button class="menu-abrir"><i class="fa fa-bars"></i></button>
+				<div class="caixa">
+				<h1 class="logo" id="logo"><img src="imagem/logo.png" alt="logo da alura"></h1>
+
+					<nav class="barra-nav">
+						<button class="menu-fechar"><i class="fa fa-bars"></i></button>
+						
+						<ul class="menu-mobile">
+
+							<li><a href="#sobre">Sobre</a></li>
+							<li><a href="#produtos">Produto</a></li>
+							<li><a href="#benficios">Benefícios</a></li>
+							<li><a href="#box-form">Contato</a></li>
+							<li><a href="#mapa">Localização</a></li>
 						</ul>
 					</nav>
-			</fildset>
+				</div>
+
+				<div class="caixa2">
+						<nav class="barra-nav2">
+
+							<ul class="menu-principal">
+								<li><a href="#sobre">Sobre</a></li>
+								<li><a href="#produtos">Produto</a></li>
+								<li><a href="#benficios">Benefícios</a></li>
+								<li><a href="#box-form">Contato</a></li>
+								<li><a href="#mapa">Localização</a></li>
+							</ul>
+						</nav>
+				</div>
 		</header>
 
 	<body >
-		<img class="banner" src = "banner.jpg">
+		<img class="banner" src = "imagem/banner.jpg">
 
 			<main>
-				<section class="principal" >
-					<div class="sobre">
-					<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+				<div class="secao">
+				<div class="sobre" id="sobre">
+					<section class="conteudo-principal" >	
+						<h2 class="titulo-sobre">Sobre a Barbearia Alura</h2>
 
-					<img  class="utensilios" src="utensilios.jpg" alt="utensilios de barbeiro">
+						<img  class="utensilios" src="imagem/utensilios.jpg" alt="utensilios de barbeiro">
 
-					<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+						<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-					<p id="ParagrafoMissao" ><em>Nossa missão é:<strong> "Proporcionar auto-estima e qualidade de vida aos clientes". </strong> </em></p>
+						<p id="ParagrafoMissao" ><em>Nossa missão é:<strong> "Proporcionar auto-estima e qualidade de vida aos clientes". </strong> </em></p>
 
-					<p >Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>	
+						<p >Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>	
+					</section>
 					<div>
-				</section>
+				</div>
 
-
-				<section class="mapa">
-					<h3 class="titulo-principal">Nosso Estabelecimento</h3>
-					<p>Nosso estabelecimento está localizado no centro da cidade<p>
-					<div class="mapa-conteudo"> 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.326467210763!2d-46.6432006300319!3d-23.592437102746587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1621338306965!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<div class="secao">
+				<div class="produtos" id="produtos">
+						<section class="card-produto">
+						<h2>Produtos</h2>	
+						<ul >
+							<li><h3>Cabelo</h3>
+								<img src="imagem/cabelo.jpg">
+								<p class="produto-descricao">Na tesoura ou máquina, como o cliente preferir</p>	
+								<p class="produto-preco">R$25,00</p>
+							</li>
+							<li><h3>Barba</h3>
+								<img src="imagem/barba.jpg">
+								<p class="produto-descricao">Corte e desenho profisssional de barba</p>
+								<p class="produto-preco">R$18,00</p>
+							</li>
+							<li><h3>Cabelo + Barba</h3>
+								<img src="imagem/cabelo+barba.jpg">
+								<p class="produto-descricao">Pacote completo de barba</p>
+								<br>
+								<p class="produto-preco">R$35,00</p>
+							</li>
+						</ul>
+						</section>
 					</div>
-
-				</section>
-				<div class="color">
-					<section class="benficios">
-							
-							<h3 class="titulo-centralizado">Benefícios</h3>
-							
-
+				</div>
+				
+				<div class="secao">
+					<section class="benficios" id="benficios">
 							<div class="conteudo-beneficios">
+								<h3 class="titulo-benficios">Benefícios</h3>
 								<ul class="lista-beneficios">			
 									<li class="itens">Atendimento aos Clientes</li>
 									<li class="itens">Espaço diferenciado</li>
@@ -67,25 +115,110 @@
 									<li class="itens">Profissionais Qualificados</li>
 									<li class="itens">Pontualidade</li>
 									<li class="itens">limpeza</li>
-								</ul>	
-								<img src="beneficios.jpg" class="imagem-beneficios" >
+								</ul>
+							<div>
+							<div class="video">
+									<iframe width="450px" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 
-							<div><!quando se usa inline bloque não pode ter espaçamento>			
-												
+							<div class="imagem-beneficios1">
+								<img src="imagem/corte popular.PNG">
+							</div>
 
-								<div class="video">
-								
-									<iframe width="530px" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-								</div>
-							<div>
+							<div class="imagem-beneficios2">
+								<img src="imagem/beneficios.jpg">
+							</div>		
 					</section>
-			</main>	
-				
+				</div>
+
+				<div class="box-form" id="box-form">
+				<section class="formulario">
+				<form><h2>Formulário de Contato</h2>	
+					<br>		
+					<label for="nomeSobrenome">Nome e Sobrenome</label>
+					 	<input type="text" id="nomeSobrenome" class="input-padrao" required  required  placeholder=" Felipe Teixeira"> 
+
+					 	<label for="email">E-mail</label>
+					 	<input type="email" id="email" class="input-padrao" required  required  placeholder=" nome@gmail.com" >
+
+					 	<label for="telefone">Telefone</label>
+					 	<input type="tel" id="telefone" class="input-padrao" required  required  placeholder=" 11-900000000">
+
+					 	<label for="mensagem">Digite sua mensagem</label>
+					 	<textarea cols="70" rows="10" id="mensagem" class="input-padrao" ></textarea>
+
+						 <fildset>
+						 	<legend>Como Prefere nosso contato?</legend>
+							 <label for="radio-email"> <input type="radio" id="radio-email" value="E-mail" name="tipoContato">Email</label>
+
+							<label for="radio-telefone"><input type="radio" id="radio-telefone" value="Telefone" name="tipoContato">Telefone</label>
+
+							<label for="radio-whatsap"><input type="radio" id="radio-whatsap" value="Whatsap" name="tipoContato" checked>Whatsap</label>
+						 </fildset>
+
+						 	<fildset class="periodo">
+						 		<legend>Qual horario prefere ser atendido?</legend>
+							 	<select>
+							 		<option>Manhã</option>
+							 		<option>Tarde</option>
+							 		<option>Noite</option> 
+							 	</select>
+						 	</fildset>
+
+						 	<label for="notificacao" class="checkbox">Gostaria de receber nossa novidades? <input type="checkbox" id="notificacao" > </label>
+				 	<input type="submit" value="Enviar Formulario" class="enviar">
+				 </form>
+				  		<table >
+				 		<thead>
+				 			<tr>
+				 			<th>Dia</th>
+				 			<th>Horario</th>
+				 			</tr>	
+				 		</thead>
+				 		
+				 		<tbody>
+					 		<tr>
+					 			<td>Segunda</td>
+					 			<td>8h ~ 20h</td>
+					 		</tr>
+
+					 		<tr>
+					 		   <td>Quarta</td>
+					 		   <td>8h ~ 20h</td>
+					 		</tr>
+
+					 		<tr>
+					 			<td>Sexta</td>
+					 			<td>8h ~ 20h</td>
+					 		</tr>
+				 		</tbody>
+				 		</table>
+				</section>
+			</div>
+
+
+				<div class="secao">
+						<section class="mapa" id="mapa">
+							<h2 class="titulo-principal">Nosso Estabelecimento</h2>
+							<p>Nosso estabelecimento está localizado no centro da cidade<p>
+							<div class="mapa-conteudo"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.326467210763!2d-46.6432006300319!3d-23.592437102746587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1621338306965!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</div>
+					</section>
+					</div>
+			</main>
+
 			<footer>
-				<img src="produto imagem/logo-branco.png">
-				<p class="copy"> &#169; Copyright Barberaria Alura</p>
+			<img src="imagem/logo-branco.png">
+			<p class="copy"> &#169; Copyright Barberaria Alura</p>
+
+			
+
+			<a href="https://icons8.com/icon/100658/up-squared">Up Squared icon by Icons8</a>
+
+			
+			<li><a href="#logo"><img src="https://img.icons8.com/material-outlined/48/000000/up-squared.png"/ class="icon-top"></a></li>
+
 			</footer>
+	<script src="js/menu.js"></script>
 	</body>
 </html>
