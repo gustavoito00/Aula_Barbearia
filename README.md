@@ -3,6 +3,9 @@
 
 # Autor
 Gustavo Ito
+<br>
+Linkdin: https://www.linkedin.com/in/gustavo-tsuyoshi/
+<br>
 https://gustavoito00.github.io/Aula_Barbearia/#logo
 
 
