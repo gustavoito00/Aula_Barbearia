@@ -18,6 +18,8 @@ Aplicamos conhecimento para criação de  texto, imagem, blocos de conteúdo, li
 
 Aprendemos a mudar cor, posicionar elementos, mudar espaçamento, propriedades com elementos responsivos, conceitos sobre display line e display block e como se comporta o html e seus espaçamentos. Por fim, mergulhamos a fundo em como funciona um formulário e uma tabela na internet. 
 
+## Demonstração:
+https://github.com/gustavoito00/ativos/blob/main/Projeto_barbearia/Barbearia-Alura.gif
 
 ## Layout web
 ![Web 1](https://github.com/gustavoito00/ativos/blob/f91a9de326fa9979c95fee401d8674190ecd9a13/Projeto_barbearia/destiop.jpeg)
